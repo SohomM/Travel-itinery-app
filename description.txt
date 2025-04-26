@@ -1,0 +1,117 @@
+ Travel Itinerary App — Project Documentation
+
+ 🛍️ Project Overview:
+The **Travel Itinerary App** is a user-personalized React platform for planning trips. It helps travelers customize trips by selecting destinations, duration of stay, companions, and then provides a dashboard view of upcoming trips with flight, accommodation, and activities information.
+
+---
+
+ 💻 Key Screens:
+
+### 1. Onboarding Screens
+- Purpose: Collect user travel preferences.
+- Features:
+  - Destination selection
+  - Stay duration selection
+  - Travel companion selection (Solo, Couple, Family, Friends)
+  - Continue button
+- Customizations:
+  - Dark Mode: Dark background with blue buttons.
+  - Light Mode: Light background with pink highlights.
+
+### 2. Main Dashboard
+- Purpose: Display user's trip overview.
+- Sections:
+  - Greeting header
+  - Trip destination image
+  - Flight details card
+  - Accommodation cards (hotel details)
+  - Activities list (sightseeing, experiences)
+  - Bottom navigation bar
+- Customizations:
+  - Dark mode and light mode variations.
+  - Scrollable content sections.
+
+---
+
+## 🛠️ Templates and Components Used:
+
+| Component         | Description                                                                                        | Customization            |
+|-------------------|----------------------------------------------------------------------------------------------------|---------------------------|
+| `OnboardingForm`  | Multi-step form for inputting trip preferences.                                                    | Dark and Light versions   |
+| `DashboardHeader` | Displays greeting and trip destination photo.                                                      | User name and city dynamic |
+| `FlightCard`      | Displays flight number, departure and arrival info.                                                | Card styling               |
+| `AccommodationCard`| Displays hotel images and brief details.                                                           | Carousel/grid layout       |
+| `ActivitiesSection`| List of recommended activities with tabs for filtering.                                            | Tabbed filter system       |
+| `BottomNavBar`    | Bottom fixed navigation with Home, Activities, Add Trip, Map, and Profile icons.                  | Light/Dark icons           |
+| `ActivityCard`    | Activity previews with images and descriptions.                                                   | Expandable option          |
+
+---
+
+## ⚙️ Tech Stack (Suggested):
+
+| Tech | Purpose |
+|------|---------|
+| ReactJS (Vite/CRA) | Frontend Development |
+| TailwindCSS or Styled Components | Styling |
+| React Router | Page Routing |
+| Redux or Context API | State Management |
+| LocalStorage / Firebase | Persistent data storage |
+| Figma | UI/UX Design |
+
+---
+
+## ✨ Features Summary:
+- Light & Dark Mode UI
+- Personalized onboarding flow
+- Modular and reusable UI components
+- Activity filtering and scheduling
+- Mobile-first design
+- Smooth navigation with bottom nav bar
+
+---
+
+# README Template
+
+## Travel Itinerary App
+
+**Description**
+> A beautiful React-based travel planner app with personalized trip dashboards.
+
+**Installation**
+```bash
+npm install
+npm run dev
+```
+
+**Project Structure**
+```
+src/
+ |-- components/
+ |-- pages/
+ |-- assets/
+ |-- utils/
+ |-- App.jsx
+ |-- main.jsx
+```
+
+**Tech Stack**
+- ReactJS
+- TailwindCSS
+- React Router
+- Context API
+
+**Customization**
+- Update `theme` folder to switch between Dark and Light modes.
+- Edit `components/ActivitiesSection.jsx` to change activity categories.
+
+**Future Enhancements**
+- User authentication
+- Multiple trip management
+- Push notifications for upcoming flights and hotel check-ins
+
+---
+
+Created by sohom mukherjee
+
+---
+
